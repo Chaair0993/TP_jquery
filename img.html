@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IMG</title>
+    <style>
+
+    #imgjquery{
+        width:  100px;
+        height: 100px;
+        
+    }
+
+    header{
+        width: 100%;
+        height: 20vh;
+        background-color: black;
+        display: flex;
+        justify-content: center;
+    }
+    
+    h1{
+        color: white;
+        font-size: 6vh;
+  
+    }
+
+    h2{
+        color: purple;
+    }
+
+
+    </style>
+
+    
+</head>
+<body>
+
+    <header>
+        <h1>JQUERY</h1>
+        
+    </header>
+
+    <section>
+        <h2>DIV CHANGEMENT DE COULEUR</h2>
+        <hr>
+    </section>
+
+    <br>
+
+    <p>
+
+
+
+
+    <img src="img/jQurery-e1423237413165.png" alt="" id="imgjquery">
+    
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <script>
+         //IMG
+         
+                $('#imgjquery').click(function()
+                    {
+                        $('#imgjquery').css('height', '+=20px', );$('#imgjquery').css('width', '+=20px', );
+                    });
+           
+    </script>
+</body>
+</html>

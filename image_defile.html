@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>image.defile</title>
+</head>
+
+<style>
+    #slider {
+        width: 720px;
+        height: 400px;
+        overflow: hidden;
+    }
+    #slider .slides {
+        display: block;
+        width: 6000px;
+        height: 400px;
+        margin: 0;
+        padding: 0;
+    }
+    #slider .slide {
+        float: left;
+        list-style-type: none;
+        width: 720px;
+        height: 400px;
+    }
+</style>
+<body>
+
+    <p>
+        je peut <meme></meme>
+    </p>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script>
+
+           
+$(function () {
+                setInterval(function () {
+                    $("#slider .slides").animate({
+                        "margin-left": "-=720px"
+                    }, 1000);
+                }, 5000);
+            });
+
+
+
+    </script>
+</body>
+</html>
+
+
+<peut</peut>
